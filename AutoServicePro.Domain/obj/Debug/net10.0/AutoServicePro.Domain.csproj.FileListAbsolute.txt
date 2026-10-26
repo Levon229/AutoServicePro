@@ -1,0 +1,11 @@
+C:\Users\User\Desktop\AutoServicePro\AutoServicePro.Domain\bin\Debug\net10.0\AutoServicePro.Domain.deps.json
+C:\Users\User\Desktop\AutoServicePro\AutoServicePro.Domain\bin\Debug\net10.0\AutoServicePro.Domain.dll
+C:\Users\User\Desktop\AutoServicePro\AutoServicePro.Domain\bin\Debug\net10.0\AutoServicePro.Domain.pdb
+C:\Users\User\Desktop\AutoServicePro\AutoServicePro.Domain\obj\Debug\net10.0\AutoServicePro.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\AutoServicePro\AutoServicePro.Domain\obj\Debug\net10.0\AutoServicePro.Domain.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\AutoServicePro\AutoServicePro.Domain\obj\Debug\net10.0\AutoServicePro.Domain.AssemblyInfo.cs
+C:\Users\User\Desktop\AutoServicePro\AutoServicePro.Domain\obj\Debug\net10.0\AutoServicePro.Domain.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\AutoServicePro\AutoServicePro.Domain\obj\Debug\net10.0\AutoServicePro.Domain.dll
+C:\Users\User\Desktop\AutoServicePro\AutoServicePro.Domain\obj\Debug\net10.0\refint\AutoServicePro.Domain.dll
+C:\Users\User\Desktop\AutoServicePro\AutoServicePro.Domain\obj\Debug\net10.0\AutoServicePro.Domain.pdb
+C:\Users\User\Desktop\AutoServicePro\AutoServicePro.Domain\obj\Debug\net10.0\ref\AutoServicePro.Domain.dll

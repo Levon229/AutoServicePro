@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="AutoServicePro.API/AutoServicePro.API.csproj" />
+  <Project Path="AutoServicePro.Application/AutoServicePro.Application.csproj" />
+  <Project Path="AutoServicePro.Domain/AutoServicePro.Domain.csproj" />
+  <Project Path="AutoServicePro.Infrastructure/AutoServicePro.Infrastructure.csproj" />
+  <Project Path="AutoServicePro.UnitTestes/AutoServicePro.UnitTestes.csproj" />
+</Solution>

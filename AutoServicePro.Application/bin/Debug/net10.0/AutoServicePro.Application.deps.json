@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "AutoServicePro.Application/1.0.0": {
+        "dependencies": {
+          "AutoServicePro.Domain": "1.0.0"
+        },
+        "runtime": {
+          "AutoServicePro.Application.dll": {}
+        }
+      },
+      "AutoServicePro.Domain/1.0.0": {
+        "runtime": {
+          "AutoServicePro.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AutoServicePro.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AutoServicePro.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

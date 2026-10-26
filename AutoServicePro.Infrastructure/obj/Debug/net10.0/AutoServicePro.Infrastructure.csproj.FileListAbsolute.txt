@@ -1,0 +1,17 @@
+C:\Users\User\Desktop\AutoServicePro\AutoServicePro.Infrastructure\bin\Debug\net10.0\AutoServicePro.Infrastructure.deps.json
+C:\Users\User\Desktop\AutoServicePro\AutoServicePro.Infrastructure\bin\Debug\net10.0\AutoServicePro.Infrastructure.dll
+C:\Users\User\Desktop\AutoServicePro\AutoServicePro.Infrastructure\bin\Debug\net10.0\AutoServicePro.Infrastructure.pdb
+C:\Users\User\Desktop\AutoServicePro\AutoServicePro.Infrastructure\bin\Debug\net10.0\AutoServicePro.Application.dll
+C:\Users\User\Desktop\AutoServicePro\AutoServicePro.Infrastructure\bin\Debug\net10.0\AutoServicePro.Domain.dll
+C:\Users\User\Desktop\AutoServicePro\AutoServicePro.Infrastructure\bin\Debug\net10.0\AutoServicePro.Application.pdb
+C:\Users\User\Desktop\AutoServicePro\AutoServicePro.Infrastructure\bin\Debug\net10.0\AutoServicePro.Domain.pdb
+C:\Users\User\Desktop\AutoServicePro\AutoServicePro.Infrastructure\obj\Debug\net10.0\AutoServicePro.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\AutoServicePro\AutoServicePro.Infrastructure\obj\Debug\net10.0\AutoServicePro.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\AutoServicePro\AutoServicePro.Infrastructure\obj\Debug\net10.0\AutoServicePro.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\AutoServicePro\AutoServicePro.Infrastructure\obj\Debug\net10.0\AutoServicePro.Infrastructure.AssemblyInfo.cs
+C:\Users\User\Desktop\AutoServicePro\AutoServicePro.Infrastructure\obj\Debug\net10.0\AutoServicePro.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\AutoServicePro\AutoServicePro.Infrastructure\obj\Debug\net10.0\AutoServ.5B4DB3C1.Up2Date
+C:\Users\User\Desktop\AutoServicePro\AutoServicePro.Infrastructure\obj\Debug\net10.0\AutoServicePro.Infrastructure.dll
+C:\Users\User\Desktop\AutoServicePro\AutoServicePro.Infrastructure\obj\Debug\net10.0\refint\AutoServicePro.Infrastructure.dll
+C:\Users\User\Desktop\AutoServicePro\AutoServicePro.Infrastructure\obj\Debug\net10.0\AutoServicePro.Infrastructure.pdb
+C:\Users\User\Desktop\AutoServicePro\AutoServicePro.Infrastructure\obj\Debug\net10.0\ref\AutoServicePro.Infrastructure.dll

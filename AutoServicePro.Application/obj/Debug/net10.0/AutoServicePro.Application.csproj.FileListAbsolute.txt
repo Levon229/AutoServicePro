@@ -1,0 +1,15 @@
+C:\Users\User\Desktop\AutoServicePro\AutoServicePro.Application\bin\Debug\net10.0\AutoServicePro.Application.deps.json
+C:\Users\User\Desktop\AutoServicePro\AutoServicePro.Application\bin\Debug\net10.0\AutoServicePro.Application.dll
+C:\Users\User\Desktop\AutoServicePro\AutoServicePro.Application\bin\Debug\net10.0\AutoServicePro.Application.pdb
+C:\Users\User\Desktop\AutoServicePro\AutoServicePro.Application\bin\Debug\net10.0\AutoServicePro.Domain.dll
+C:\Users\User\Desktop\AutoServicePro\AutoServicePro.Application\bin\Debug\net10.0\AutoServicePro.Domain.pdb
+C:\Users\User\Desktop\AutoServicePro\AutoServicePro.Application\obj\Debug\net10.0\AutoServicePro.Application.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\AutoServicePro\AutoServicePro.Application\obj\Debug\net10.0\AutoServicePro.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\AutoServicePro\AutoServicePro.Application\obj\Debug\net10.0\AutoServicePro.Application.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\AutoServicePro\AutoServicePro.Application\obj\Debug\net10.0\AutoServicePro.Application.AssemblyInfo.cs
+C:\Users\User\Desktop\AutoServicePro\AutoServicePro.Application\obj\Debug\net10.0\AutoServicePro.Application.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\AutoServicePro\AutoServicePro.Application\obj\Debug\net10.0\AutoServ.2BE9D12D.Up2Date
+C:\Users\User\Desktop\AutoServicePro\AutoServicePro.Application\obj\Debug\net10.0\AutoServicePro.Application.dll
+C:\Users\User\Desktop\AutoServicePro\AutoServicePro.Application\obj\Debug\net10.0\refint\AutoServicePro.Application.dll
+C:\Users\User\Desktop\AutoServicePro\AutoServicePro.Application\obj\Debug\net10.0\AutoServicePro.Application.pdb
+C:\Users\User\Desktop\AutoServicePro\AutoServicePro.Application\obj\Debug\net10.0\ref\AutoServicePro.Application.dll

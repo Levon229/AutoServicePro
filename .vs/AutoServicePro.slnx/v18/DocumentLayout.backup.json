@@ -1,0 +1,355 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\AutoServicePro\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5EBF75CB-9C49-9CA9-3095-FB6C7288F1AF}|AutoServicePro.UnitTestes\\AutoServicePro.UnitTestes.csproj|c:\\users\\user\\desktop\\autoservicepro\\autoservicepro.unittestes\\workorderservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EBF75CB-9C49-9CA9-3095-FB6C7288F1AF}|AutoServicePro.UnitTestes\\AutoServicePro.UnitTestes.csproj|solutionrelative:autoservicepro.unittestes\\workorderservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CB5B775-EB13-B9F2-9E62-CDECB09E2877}|AutoServicePro.API\\AutoServicePro.API.csproj|c:\\users\\user\\desktop\\autoservicepro\\autoservicepro.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9CB5B775-EB13-B9F2-9E62-CDECB09E2877}|AutoServicePro.API\\AutoServicePro.API.csproj|solutionrelative:autoservicepro.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CB5B775-EB13-B9F2-9E62-CDECB09E2877}|AutoServicePro.API\\AutoServicePro.API.csproj|c:\\users\\user\\desktop\\autoservicepro\\autoservicepro.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CB5B775-EB13-B9F2-9E62-CDECB09E2877}|AutoServicePro.API\\AutoServicePro.API.csproj|solutionrelative:autoservicepro.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CB5B775-EB13-B9F2-9E62-CDECB09E2877}|AutoServicePro.API\\AutoServicePro.API.csproj|c:\\users\\user\\desktop\\autoservicepro\\autoservicepro.api\\controllers\\workorderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CB5B775-EB13-B9F2-9E62-CDECB09E2877}|AutoServicePro.API\\AutoServicePro.API.csproj|solutionrelative:autoservicepro.api\\controllers\\workorderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CB5B775-EB13-B9F2-9E62-CDECB09E2877}|AutoServicePro.API\\AutoServicePro.API.csproj|c:\\users\\user\\desktop\\autoservicepro\\autoservicepro.api\\middlewares\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CB5B775-EB13-B9F2-9E62-CDECB09E2877}|AutoServicePro.API\\AutoServicePro.API.csproj|solutionrelative:autoservicepro.api\\middlewares\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C72720C5-E136-FCBA-6B04-F9D1EEB02E1C}|AutoServicePro.Infrastructure\\AutoServicePro.Infrastructure.csproj|c:\\users\\user\\desktop\\autoservicepro\\autoservicepro.infrastructure\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C72720C5-E136-FCBA-6B04-F9D1EEB02E1C}|AutoServicePro.Infrastructure\\AutoServicePro.Infrastructure.csproj|solutionrelative:autoservicepro.infrastructure\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D89D2A24-2716-0933-42E3-DC46DE5420E6}|AutoServicePro.Application\\AutoServicePro.Application.csproj|c:\\users\\user\\desktop\\autoservicepro\\autoservicepro.application\\interfaces\\iworkorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D89D2A24-2716-0933-42E3-DC46DE5420E6}|AutoServicePro.Application\\AutoServicePro.Application.csproj|solutionrelative:autoservicepro.application\\interfaces\\iworkorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D89D2A24-2716-0933-42E3-DC46DE5420E6}|AutoServicePro.Application\\AutoServicePro.Application.csproj|c:\\users\\user\\desktop\\autoservicepro\\autoservicepro.application\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D89D2A24-2716-0933-42E3-DC46DE5420E6}|AutoServicePro.Application\\AutoServicePro.Application.csproj|solutionrelative:autoservicepro.application\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D89D2A24-2716-0933-42E3-DC46DE5420E6}|AutoServicePro.Application\\AutoServicePro.Application.csproj|c:\\users\\user\\desktop\\autoservicepro\\autoservicepro.application\\dtos\\workorderdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D89D2A24-2716-0933-42E3-DC46DE5420E6}|AutoServicePro.Application\\AutoServicePro.Application.csproj|solutionrelative:autoservicepro.application\\dtos\\workorderdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D89D2A24-2716-0933-42E3-DC46DE5420E6}|AutoServicePro.Application\\AutoServicePro.Application.csproj|c:\\users\\user\\desktop\\autoservicepro\\autoservicepro.application\\dtos\\vehicledtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D89D2A24-2716-0933-42E3-DC46DE5420E6}|AutoServicePro.Application\\AutoServicePro.Application.csproj|solutionrelative:autoservicepro.application\\dtos\\vehicledtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D89D2A24-2716-0933-42E3-DC46DE5420E6}|AutoServicePro.Application\\AutoServicePro.Application.csproj|c:\\users\\user\\desktop\\autoservicepro\\autoservicepro.application\\dtos\\sparepartdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D89D2A24-2716-0933-42E3-DC46DE5420E6}|AutoServicePro.Application\\AutoServicePro.Application.csproj|solutionrelative:autoservicepro.application\\dtos\\sparepartdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4FA71E8-BAB7-B519-8DD6-653716A059C4}|AutoServicePro.Domain\\AutoServicePro.Domain.csproj|c:\\users\\user\\desktop\\autoservicepro\\autoservicepro.domain\\entities\\workorderpart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4FA71E8-BAB7-B519-8DD6-653716A059C4}|AutoServicePro.Domain\\AutoServicePro.Domain.csproj|solutionrelative:autoservicepro.domain\\entities\\workorderpart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4FA71E8-BAB7-B519-8DD6-653716A059C4}|AutoServicePro.Domain\\AutoServicePro.Domain.csproj|c:\\users\\user\\desktop\\autoservicepro\\autoservicepro.domain\\entities\\workorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4FA71E8-BAB7-B519-8DD6-653716A059C4}|AutoServicePro.Domain\\AutoServicePro.Domain.csproj|solutionrelative:autoservicepro.domain\\entities\\workorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4FA71E8-BAB7-B519-8DD6-653716A059C4}|AutoServicePro.Domain\\AutoServicePro.Domain.csproj|c:\\users\\user\\desktop\\autoservicepro\\autoservicepro.domain\\entities\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4FA71E8-BAB7-B519-8DD6-653716A059C4}|AutoServicePro.Domain\\AutoServicePro.Domain.csproj|solutionrelative:autoservicepro.domain\\entities\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4FA71E8-BAB7-B519-8DD6-653716A059C4}|AutoServicePro.Domain\\AutoServicePro.Domain.csproj|c:\\users\\user\\desktop\\autoservicepro\\autoservicepro.domain\\entities\\sparepart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4FA71E8-BAB7-B519-8DD6-653716A059C4}|AutoServicePro.Domain\\AutoServicePro.Domain.csproj|solutionrelative:autoservicepro.domain\\entities\\sparepart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4FA71E8-BAB7-B519-8DD6-653716A059C4}|AutoServicePro.Domain\\AutoServicePro.Domain.csproj|c:\\users\\user\\desktop\\autoservicepro\\autoservicepro.domain\\entities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4FA71E8-BAB7-B519-8DD6-653716A059C4}|AutoServicePro.Domain\\AutoServicePro.Domain.csproj|solutionrelative:autoservicepro.domain\\entities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C72720C5-E136-FCBA-6B04-F9D1EEB02E1C}|AutoServicePro.Infrastructure\\AutoServicePro.Infrastructure.csproj|c:\\users\\user\\desktop\\autoservicepro\\autoservicepro.infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C72720C5-E136-FCBA-6B04-F9D1EEB02E1C}|AutoServicePro.Infrastructure\\AutoServicePro.Infrastructure.csproj|solutionrelative:autoservicepro.infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4FA71E8-BAB7-B519-8DD6-653716A059C4}|AutoServicePro.Domain\\AutoServicePro.Domain.csproj|c:\\users\\user\\desktop\\autoservicepro\\autoservicepro.domain\\enums\\workorderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4FA71E8-BAB7-B519-8DD6-653716A059C4}|AutoServicePro.Domain\\AutoServicePro.Domain.csproj|solutionrelative:autoservicepro.domain\\enums\\workorderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D89D2A24-2716-0933-42E3-DC46DE5420E6}|AutoServicePro.Application\\AutoServicePro.Application.csproj|c:\\users\\user\\desktop\\autoservicepro\\autoservicepro.application\\services\\workorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D89D2A24-2716-0933-42E3-DC46DE5420E6}|AutoServicePro.Application\\AutoServicePro.Application.csproj|solutionrelative:autoservicepro.application\\services\\workorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WorkOrderServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\AutoServicePro\\AutoServicepro.UnitTestes\\WorkOrderServiceTests.cs",
+              "RelativeDocumentMoniker": "AutoServicepro.UnitTestes\\WorkOrderServiceTests.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\AutoServicePro\\AutoServicepro.UnitTestes\\WorkOrderServiceTests.cs",
+              "RelativeToolTip": "AutoServicepro.UnitTestes\\WorkOrderServiceTests.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-26T08:37:43.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\AutoServicePro\\AutoServicePro.API\\appsettings.json",
+              "RelativeDocumentMoniker": "AutoServicePro.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\User\\Desktop\\AutoServicePro\\AutoServicePro.API\\appsettings.json",
+              "RelativeToolTip": "AutoServicePro.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-10-26T08:31:57.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\AutoServicePro\\AutoServicePro.API\\Program.cs",
+              "RelativeDocumentMoniker": "AutoServicePro.API\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\AutoServicePro\\AutoServicePro.API\\Program.cs",
+              "RelativeToolTip": "AutoServicePro.API\\Program.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACkAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-26T08:24:40.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WorkOrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\AutoServicePro\\AutoServicePro.API\\Controllers\\WorkOrdersController.cs",
+              "RelativeDocumentMoniker": "AutoServicePro.API\\Controllers\\WorkOrdersController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\AutoServicePro\\AutoServicePro.API\\Controllers\\WorkOrdersController.cs",
+              "RelativeToolTip": "AutoServicePro.API\\Controllers\\WorkOrdersController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAUwBEAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-26T08:23:00.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ExceptionHandlingMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\AutoServicePro\\AutoServicePro.API\\Middlewares\\ExceptionHandlingMiddleware.cs",
+              "RelativeDocumentMoniker": "AutoServicePro.API\\Middlewares\\ExceptionHandlingMiddleware.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\AutoServicePro\\AutoServicePro.API\\Middlewares\\ExceptionHandlingMiddleware.cs",
+              "RelativeToolTip": "AutoServicePro.API\\Middlewares\\ExceptionHandlingMiddleware.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAA5wAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-26T08:19:29.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SparePartDtos.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\AutoServicePro\\AutoServicePro.Application\\DTOs\\SparePartDtos.cs",
+              "RelativeDocumentMoniker": "AutoServicePro.Application\\DTOs\\SparePartDtos.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\AutoServicePro\\AutoServicePro.Application\\DTOs\\SparePartDtos.cs",
+              "RelativeToolTip": "AutoServicePro.Application\\DTOs\\SparePartDtos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-26T06:56:18.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "VehicleDtos.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\AutoServicePro\\AutoServicePro.Application\\DTOs\\VehicleDtos.cs",
+              "RelativeDocumentMoniker": "AutoServicePro.Application\\DTOs\\VehicleDtos.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\AutoServicePro\\AutoServicePro.Application\\DTOs\\VehicleDtos.cs",
+              "RelativeToolTip": "AutoServicePro.Application\\DTOs\\VehicleDtos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-26T07:00:19.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "WorkOrderDtos.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\AutoServicePro\\AutoServicePro.Application\\DTOs\\WorkOrderDtos.cs",
+              "RelativeDocumentMoniker": "AutoServicePro.Application\\DTOs\\WorkOrderDtos.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\AutoServicePro\\AutoServicePro.Application\\DTOs\\WorkOrderDtos.cs",
+              "RelativeToolTip": "AutoServicePro.Application\\DTOs\\WorkOrderDtos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-26T07:07:20.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\AutoServicePro\\AutoServicePro.Application\\Interfaces\\IRepository.cs",
+              "RelativeDocumentMoniker": "AutoServicePro.Application\\Interfaces\\IRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\AutoServicePro\\AutoServicePro.Application\\Interfaces\\IRepository.cs",
+              "RelativeToolTip": "AutoServicePro.Application\\Interfaces\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-26T07:12:52.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IWorkOrderService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\AutoServicePro\\AutoServicePro.Application\\Interfaces\\IWorkOrderService.cs",
+              "RelativeDocumentMoniker": "AutoServicePro.Application\\Interfaces\\IWorkOrderService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\AutoServicePro\\AutoServicePro.Application\\Interfaces\\IWorkOrderService.cs",
+              "RelativeToolTip": "AutoServicePro.Application\\Interfaces\\IWorkOrderService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-26T07:17:54.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\AutoServicePro\\AutoServicePro.Infrastructure\\Repositories\\Repository.cs",
+              "RelativeDocumentMoniker": "AutoServicePro.Infrastructure\\Repositories\\Repository.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\AutoServicePro\\AutoServicePro.Infrastructure\\Repositories\\Repository.cs",
+              "RelativeToolTip": "AutoServicePro.Infrastructure\\Repositories\\Repository.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAkwAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-26T08:12:04.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "WorkOrderPart.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\AutoServicePro\\AutoServicePro.Domain\\Entities\\WorkOrderPart.cs",
+              "RelativeDocumentMoniker": "AutoServicePro.Domain\\Entities\\WorkOrderPart.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\AutoServicePro\\AutoServicePro.Domain\\Entities\\WorkOrderPart.cs",
+              "RelativeToolTip": "AutoServicePro.Domain\\Entities\\WorkOrderPart.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-26T06:48:46.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "WorkOrder.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\AutoServicePro\\AutoServicePro.Domain\\Entities\\WorkOrder.cs",
+              "RelativeDocumentMoniker": "AutoServicePro.Domain\\Entities\\WorkOrder.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\AutoServicePro\\AutoServicePro.Domain\\Entities\\WorkOrder.cs",
+              "RelativeToolTip": "AutoServicePro.Domain\\Entities\\WorkOrder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-26T06:40:25.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Vehicle.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\AutoServicePro\\AutoServicePro.Domain\\Entities\\Vehicle.cs",
+              "RelativeDocumentMoniker": "AutoServicePro.Domain\\Entities\\Vehicle.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\AutoServicePro\\AutoServicePro.Domain\\Entities\\Vehicle.cs",
+              "RelativeToolTip": "AutoServicePro.Domain\\Entities\\Vehicle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-26T06:18:54.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "SparePart.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\AutoServicePro\\AutoServicePro.Domain\\Entities\\SparePart.cs",
+              "RelativeDocumentMoniker": "AutoServicePro.Domain\\Entities\\SparePart.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\AutoServicePro\\AutoServicePro.Domain\\Entities\\SparePart.cs",
+              "RelativeToolTip": "AutoServicePro.Domain\\Entities\\SparePart.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-26T06:24:06.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\AutoServicePro\\AutoServicePro.Domain\\Entities\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "AutoServicePro.Domain\\Entities\\BaseEntity.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\AutoServicePro\\AutoServicePro.Domain\\Entities\\BaseEntity.cs",
+              "RelativeToolTip": "AutoServicePro.Domain\\Entities\\BaseEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-26T06:34:45.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\AutoServicePro\\AutoServicePro.Infrastructure\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "AutoServicePro.Infrastructure\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\AutoServicePro\\AutoServicePro.Infrastructure\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "AutoServicePro.Infrastructure\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-26T08:06:51.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "WorkOrderStatus.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\AutoServicePro\\AutoServicePro.Domain\\Enums\\WorkOrderStatus.cs",
+              "RelativeDocumentMoniker": "AutoServicePro.Domain\\Enums\\WorkOrderStatus.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\AutoServicePro\\AutoServicePro.Domain\\Enums\\WorkOrderStatus.cs",
+              "RelativeToolTip": "AutoServicePro.Domain\\Enums\\WorkOrderStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-26T06:16:02.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "WorkOrderService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\AutoServicePro\\AutoServicePro.Application\\Services\\WorkOrderService.cs",
+              "RelativeDocumentMoniker": "AutoServicePro.Application\\Services\\WorkOrderService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\AutoServicePro\\AutoServicePro.Application\\Services\\WorkOrderService.cs",
+              "RelativeToolTip": "AutoServicePro.Application\\Services\\WorkOrderService.cs",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAuwHwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-26T07:19:42.722Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
