@@ -2,7 +2,7 @@
 
 
 
-Stack: C#, .NET 8/9, ASP.NET Core Web API, Entity Framework Core, SQLite, xUnit
+Stack: C#, .NET 8+, ASP.NET Core Web API, Entity Framework Core, SQLite, xUnit
 
 
 
