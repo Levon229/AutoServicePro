@@ -1,54 +1,67 @@
-﻿using System.Net;
+using System.ComponentModel.DataAnnotations;
+using System.Net;
 using System.Text.Json;
+using AutoServicePro.Application.Exceptions;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace AutoServicePro.API.Middlewares;
 
-public class ExceptionHandlingMiddleware
+public sealed class ExceptionHandlingMiddleware(
+    RequestDelegate next,
+    ILogger<ExceptionHandlingMiddleware> logger)
 {
-    private readonly RequestDelegate _next;
-    private readonly ILogger<ExceptionHandlingMiddleware> _logger;
-
-    public ExceptionHandlingMiddleware(RequestDelegate next, ILogger<ExceptionHandlingMiddleware> logger)
-    {
-        _next = next;
-        _logger = logger;
-    }
-
     public async Task InvokeAsync(HttpContext context)
     {
         try
         {
-            await _next(context);
+            await next(context);
         }
-        catch (Exception ex)
+        catch (Exception exception)
         {
-            _logger.LogError(ex, ex.Message);
-            await HandleExceptionAsync(context, ex);
+            logger.LogError(exception, "Request failed for {Path}", context.Request.Path);
+
+            if (context.Response.HasStarted)
+                throw;
+
+            await HandleExceptionAsync(context, exception);
         }
     }
 
     private static async Task HandleExceptionAsync(HttpContext context, Exception exception)
     {
-        context.Response.ContentType = "application/json";
-
         var statusCode = exception switch
         {
-            KeyNotFoundException => HttpStatusCode.NotFound,          // 404
-            ArgumentException => HttpStatusCode.BadRequest,           // 400
-            InvalidOperationException => HttpStatusCode.BadRequest,   // 400
-            _ => HttpStatusCode.InternalServerError                   // 500
+            KeyNotFoundException => HttpStatusCode.NotFound,
+            ConflictException or DbUpdateConcurrencyException => HttpStatusCode.Conflict,
+            ValidationException or ArgumentException => HttpStatusCode.BadRequest,
+            _ => HttpStatusCode.InternalServerError
         };
 
-        context.Response.StatusCode = (int)statusCode;
-
-        var response = new
+        var problem = new ProblemDetails
         {
-            status = context.Response.StatusCode,
-            error = exception.GetType().Name,
-            message = exception.Message
+            Status = (int)statusCode,
+            Title = statusCode switch
+            {
+                HttpStatusCode.NotFound => "Resource not found",
+                HttpStatusCode.Conflict => "The request conflicts with the current state",
+                HttpStatusCode.BadRequest => "The request is invalid",
+                _ => "An unexpected error occurred"
+            },
+            Detail = statusCode == HttpStatusCode.InternalServerError
+                ? "An unexpected error occurred."
+                : exception.Message,
+            Instance = context.Request.Path
         };
 
-        var json = JsonSerializer.Serialize(response);
-        await context.Response.WriteAsync(json);
+        context.Response.Clear();
+        context.Response.StatusCode = (int)statusCode;
+        context.Response.ContentType = "application/problem+json";
+
+        await JsonSerializer.SerializeAsync(
+            context.Response.Body,
+            problem,
+            new JsonSerializerOptions(JsonSerializerDefaults.Web),
+            context.RequestAborted);
     }
 }

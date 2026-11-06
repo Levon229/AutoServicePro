@@ -15,3 +15,4 @@ C:\Users\User\Desktop\AutoServicePro\AutoServicePro.Infrastructure\obj\Debug\net
 C:\Users\User\Desktop\AutoServicePro\AutoServicePro.Infrastructure\obj\Debug\net10.0\refint\AutoServicePro.Infrastructure.dll
 C:\Users\User\Desktop\AutoServicePro\AutoServicePro.Infrastructure\obj\Debug\net10.0\AutoServicePro.Infrastructure.pdb
 C:\Users\User\Desktop\AutoServicePro\AutoServicePro.Infrastructure\obj\Debug\net10.0\ref\AutoServicePro.Infrastructure.dll
+C:\Users\User\Desktop\AutoServicePro\AutoServicePro.Infrastructure\obj\Debug\net10.0\AutoServicePro.Infrastructure.sourcelink.json

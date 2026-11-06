@@ -1,4 +1,4 @@
-﻿using AutoServicePro.Application.Interfaces;
+using AutoServicePro.Application.Interfaces;
 using AutoServicePro.Domain.Entities;
 using AutoServicePro.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
@@ -23,7 +23,7 @@ public class Repository<T> : IRepository<T> where T : BaseEntity
 
     public async Task<IEnumerable<T>> GetAllAsync()
     {
-        return await _dbSet.ToListAsync();
+        return await _dbSet.AsNoTracking().ToListAsync();
     }
 
     public async Task AddAsync(T entity)

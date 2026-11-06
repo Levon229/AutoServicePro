@@ -1,6 +1,23 @@
 @AutoServicePro.API_HostAddress = http://localhost:5271
 
-GET {{AutoServicePro.API_HostAddress}}/weatherforecast/
+### List vehicles
+GET {{AutoServicePro.API_HostAddress}}/api/Vehicles
 Accept: application/json
 
 ###
+
+### List spare parts
+GET {{AutoServicePro.API_HostAddress}}/api/SpareParts
+Accept: application/json
+
+###
+
+### List work orders
+GET {{AutoServicePro.API_HostAddress}}/api/WorkOrders
+Accept: application/json
+
+###
+
+### Get a work order (replace 1 with an existing ID)
+GET {{AutoServicePro.API_HostAddress}}/api/WorkOrders/1
+Accept: application/json

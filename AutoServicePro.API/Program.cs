@@ -3,29 +3,32 @@ using AutoServicePro.Application.Interfaces;
 using AutoServicePro.Application.Services;
 using AutoServicePro.Infrastructure.Data;
 using AutoServicePro.Infrastructure.Repositories;
+using AutoServicePro.Infrastructure.Transactions;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-//  Add new  Controllers and Swagger
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-//  Connect SQLite Db (DbContext)
 builder.Services.AddDbContext<AppDbContext>(options =>
-    options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection") ?? "Data Source=autoservice.db"));
-
+    options.UseSqlite(
+        builder.Configuration.GetConnectionString("DefaultConnection")
+        ?? "Data Source=autoservice.db"));
 
 builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
+builder.Services.AddScoped<IWorkOrderRepository, WorkOrderRepository>();
+builder.Services.AddScoped<ISparePartRepository, SparePartRepository>();
+builder.Services.AddScoped<ITransactionManager, EfTransactionManager>();
 builder.Services.AddScoped<IWorkOrderService, WorkOrderService>();
+builder.Services.AddScoped<IVehicleService, VehicleService>();
+builder.Services.AddScoped<ISparePartService, SparePartService>();
 
 var app = builder.Build();
 
-
 app.UseMiddleware<ExceptionHandlingMiddleware>();
 
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -33,11 +36,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
-app.UseAuthorization();
-
 app.MapControllers();
-
 
 using (var scope = app.Services.CreateScope())
 {

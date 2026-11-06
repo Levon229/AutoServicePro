@@ -19,7 +19,14 @@ public class WorkOrdersController : ControllerBase
     public async Task<ActionResult<WorkOrderResponseDto>> Create([FromBody] CreateWorkOrderDto dto)
     {
         var result = await _workOrderService.CreateWorkOrderAsync(dto);
-        return CreatedAtAction(nameof(GetAll), new { id = result.Id }, result);
+        return CreatedAtAction(nameof(GetById), new { id = result.Id }, result);
+    }
+
+    [HttpGet("{id:int}")]
+    public async Task<ActionResult<WorkOrderResponseDto>> GetById(int id)
+    {
+        var result = await _workOrderService.GetWorkOrderByIdAsync(id);
+        return Ok(result);
     }
 
     [HttpGet]

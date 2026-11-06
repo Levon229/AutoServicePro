@@ -1,140 +1,40 @@
-\# Auto Service \& Spare Parts Management API
+# AutoServicePro
 
+AutoServicePro is a small ASP.NET Core Web API for an auto repair shop. It manages vehicles, spare parts, and work orders.
 
+## Technology
 
-Stack: C#, .NET 8+, ASP.NET Core Web API, Entity Framework Core, SQLite, xUnit
+- .NET 10
+- ASP.NET Core Web API
+- Entity Framework Core with SQLite
+- xUnit, Moq, and FluentAssertions
 
+## API endpoints
 
+| Method | Route | Purpose |
+| --- | --- | --- |
+| POST | /api/Vehicles | Create a vehicle |
+| GET | /api/Vehicles | List vehicles |
+| GET | /api/Vehicles/{id} | Get a vehicle |
+| POST | /api/SpareParts | Create a spare part |
+| GET | /api/SpareParts | List spare parts |
+| GET | /api/SpareParts/{id} | Get a spare part |
+| POST | /api/WorkOrders | Create a work order and deduct its parts from stock |
+| GET | /api/WorkOrders | List work orders with vehicle details |
+| GET | /api/WorkOrders/{id} | Get a work order |
+| PATCH | /api/WorkOrders/{id}/complete | Complete a work order |
 
-Project Structure:
+## Run locally
 
-\- AutoServicePro.Domain/ — Core domain entities, enums, and base classes
+    dotnet restore
+    dotnet run --project AutoServicePro.API/AutoServicePro.API.csproj
 
-\- AutoServicePro.Application/ — Business logic, DTOs, services, and repository interfaces
+In Development, Swagger UI is available at /swagger. The API uses AutoServicePro.API/appsettings.json for the SQLite connection string.
 
-\- AutoServicePro.Infrastructure/ — Data access layer, Entity Framework Core DbContext, and repository implementations
+## Tests
 
-\- AutoServicePro.API/ — Presentation layer, controllers, global middleware, and application entry point
+    dotnet test AutoServicePro.slnx
 
-\- AutoServicePro.UnitTests/ — Unit testing suite for core business logic
+## Current limitations
 
-
-
-Important Files:
-
-\- AutoServicePro.sln — Solution file uniting all projects
-
-\- AutoServicePro.API/Program.cs — Application entry point, DI container configuration, and middleware setup
-
-\- AutoServicePro.Application/Services/WorkOrderService.service.cs — Core business logic and inventory validation
-
-\- AutoServicePro.Infrastructure/Data/AppDbContext.cs — EF Core database context and Fluent API configuration
-
-
-
-\## Application Overview
-
-Auto Service \& Spare Parts Management API is a professional backend system simulating a real-world auto repair shop ERP module. The application allows management to register vehicles, track spare parts inventory, validate stock levels, and process work orders with automated cost calculations and status tracking.
-
-
-
-\## Architecture and Design Patterns
-
-
-
-The project follows \*\*Clean Architecture\*\* principles to ensure strict separation of concerns across layers:
-
-
-
-\- \*\*Domain:\*\* Contains enterprise logic, business entities, and enums, remaining completely independent of external frameworks and databases.
-
-\- \*\*Application:\*\* Contains business rules, application services, immutable data transfer objects (`record`), and generic repository interfaces implementing the \*\*Dependency Inversion Principle\*\*.
-
-\- \*\*Infrastructure:\*\* Implements data persistence using Entity Framework Core and SQLite, providing concrete repository implementations.
-
-\- \*\*API:\*\* Exposes HTTP endpoints via thin controllers and handles cross-cutting concerns.
-
-
-
-\### Key Architectural Patterns
-
-\- \*\*Generic Repository Pattern:\*\* Encapsulates data access logic and promotes code reusability across entities.
-
-\- \*\*Dependency Injection (DI):\*\* Native .NET DI container used for decoupling services and repositories.
-
-\- \*\*Observer / Middleware Pattern:\*\* Centralized error handling via custom middleware.
-
-
-
-\---
-
-
-
-\## Data Models and Entities
-
-
-
-\### Domain Entities
-
-\- \*\*`BaseEntity`\*\*: Abstract base class containing the primary key identifier (`Id`).
-
-\- \*\*`Vehicle`\*\*: Represents a client vehicle with properties: `Make`, `Model`, `Year`, `LicensePlate`, `VIN`, `OwnerName`, and `OwnerPhone`.
-
-\- \*\*`SparePart`\*\*: Represents warehouse inventory items with properties: `Name`, `PartNumber`, `UnitPrice`, and `StockQuantity`.
-
-\- \*\*`WorkOrder`\*\*: Represents a repair service order linking a vehicle, issue description, labor cost, total cost, status (`Pending`, `In Progress`, `Completed`), and timestamps.
-
-\- \*\*`WorkOrderPart`\*\*: Junction entity for the many-to-many relationship between work orders and spare parts, tracking requested quantities and historical unit prices (`UnitPriceAtTime`).
-
-
-
-\---
-
-
-
-\## Business Logic and Services
-
-
-
-\### WorkOrderService
-
-The core service implementing business workflows:
-
-1\. \*\*Vehicle Validation:\*\* Verifies if the target vehicle exists in the database.
-
-2\. \*\*Stock Validation \& Deduction:\*\* Iterates through requested spare parts, checks warehouse stock availability, throws an exception if stock is insufficient, and automatically deducts the used quantities.
-
-3\. \*\*Dynamic Cost Calculation:\*\* Computes total work order costs by combining labor costs and historical part prices.
-
-
-
-\---
-
-
-
-\## Error Handling
-
-
-
-The application features a \*\*Global Exception Handling Middleware\*\* (`ExceptionHandlingMiddleware`) that intercepts unhandled exceptions across the request pipeline, transforming domain and validation errors into standardized, clean JSON responses with appropriate HTTP status codes (404, 400, 500).
-
-
-
-\---
-
-
-
-\## Installation and Setup
-
-
-
-To install and run the project locally, execute the following commands:
-
-
-
-```bash
-
-dotnet restore
-
-dotnet run --project AutoServicePro.API/AutoServicePro.API.csproj
-
+The application currently uses EnsureCreated for a local SQLite database and does not include database migrations, authentication, or role-based authorization. Before deploying it or storing real customer information, add a migration strategy and authentication/authorization. The API is intended for local development and learning at this stage.

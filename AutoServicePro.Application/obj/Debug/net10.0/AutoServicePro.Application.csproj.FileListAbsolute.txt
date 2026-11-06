@@ -13,3 +13,4 @@ C:\Users\User\Desktop\AutoServicePro\AutoServicePro.Application\obj\Debug\net10.
 C:\Users\User\Desktop\AutoServicePro\AutoServicePro.Application\obj\Debug\net10.0\refint\AutoServicePro.Application.dll
 C:\Users\User\Desktop\AutoServicePro\AutoServicePro.Application\obj\Debug\net10.0\AutoServicePro.Application.pdb
 C:\Users\User\Desktop\AutoServicePro\AutoServicePro.Application\obj\Debug\net10.0\ref\AutoServicePro.Application.dll
+C:\Users\User\Desktop\AutoServicePro\AutoServicePro.Application\obj\Debug\net10.0\AutoServicePro.Application.sourcelink.json

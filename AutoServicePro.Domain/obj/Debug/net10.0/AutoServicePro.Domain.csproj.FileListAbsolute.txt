@@ -9,3 +9,5 @@ C:\Users\User\Desktop\AutoServicePro\AutoServicePro.Domain\obj\Debug\net10.0\Aut
 C:\Users\User\Desktop\AutoServicePro\AutoServicePro.Domain\obj\Debug\net10.0\refint\AutoServicePro.Domain.dll
 C:\Users\User\Desktop\AutoServicePro\AutoServicePro.Domain\obj\Debug\net10.0\AutoServicePro.Domain.pdb
 C:\Users\User\Desktop\AutoServicePro\AutoServicePro.Domain\obj\Debug\net10.0\ref\AutoServicePro.Domain.dll
+C:\Users\User\Desktop\AutoServicePro\AutoServicePro.Domain\obj\Debug\net10.0\AutoServicePro.Domain.sourcelink.json
+C:\Users\User\Desktop\AutoServicePro\AutoServicePro.Domain\obj\Debug\net10.0\AutoServ.B647344F.Up2Date

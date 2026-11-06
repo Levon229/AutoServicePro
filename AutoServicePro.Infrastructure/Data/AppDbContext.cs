@@ -1,12 +1,10 @@
-﻿using AutoServicePro.Domain.Entities;
+using AutoServicePro.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 
 namespace AutoServicePro.Infrastructure.Data;
 
-public class AppDbContext : DbContext
+public class AppDbContext(DbContextOptions<AppDbContext> options) : DbContext(options)
 {
-    public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
-
     public DbSet<Vehicle> Vehicles => Set<Vehicle>();
     public DbSet<SparePart> SpareParts => Set<SparePart>();
     public DbSet<WorkOrder> WorkOrders => Set<WorkOrder>();
@@ -16,15 +14,23 @@ public class AppDbContext : DbContext
     {
         base.OnModelCreating(modelBuilder);
 
-        
-        modelBuilder.Entity<WorkOrderPart>()
-            .HasOne(wp => wp.WorkOrder)
-            .WithMany(w => w.UsedParts)
-            .HasForeignKey(wp => wp.WorkOrderId);
+        // 
+        modelBuilder.Entity<Vehicle>()
+            .Property(vehicle => vehicle.OwnerName)
+            .HasColumnName("OwnerName");
+
+        modelBuilder.Entity<Vehicle>()
+            .Property(vehicle => vehicle.OwnerPhone)
+            .HasColumnName("OwnerPhone");
 
         modelBuilder.Entity<WorkOrderPart>()
-            .HasOne(wp => wp.SparePart)
+            .HasOne(workOrderPart => workOrderPart.WorkOrder)
+            .WithMany(workOrder => workOrder.UsedParts)
+            .HasForeignKey(workOrderPart => workOrderPart.WorkOrderId);
+
+        modelBuilder.Entity<WorkOrderPart>()
+            .HasOne(workOrderPart => workOrderPart.SparePart)
             .WithMany()
-            .HasForeignKey(wp => wp.SparePartId);
+            .HasForeignKey(workOrderPart => workOrderPart.SparePartId);
     }
 }
